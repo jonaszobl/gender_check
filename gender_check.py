@@ -27,4 +27,5 @@ df['Geschlecht überprüfen'] = df.apply(check_gender, axis=1)
 
 df.to_excel(output_file, index=False)
 
+#Ausgabe ob aktiv
 print("Überprüfung abgeschlossen und in die neue Excel-Datei gespeichert.")
